@@ -1,0 +1,223 @@
+1.修改网页标题为“开课吧无敌宇宙好吃的食堂”
+2.增加一个菜单
+
+图片路径: https://xiaoke-asset-prod.kaikeba.com/python-xiaoke/enter_1111.jpg
+菜品名称：清炒大白菜
+材料：白菜、花椒、高汤或者水、盐、鸡精
+步骤：
+1.白菜帮切细丝
+2.白菜有点吃油，所以多放一点油加热
+3.炸花椒
+4.将白菜放入锅中炒几下改小火翻炒
+5.加入少量水或高汤炖几分钟出锅
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style type="text/css">
+body {
+padding: 0;
+margin: 0;
+}
+.wrapper-box {
+min-width: 1440px;
+margin: 0 auto;
+}
+header .logo {
+margin: 0 auto;
+width: 1200px;
+height: 116px;
+background: url(https://xiaoke.kaikeba.com/example/canteen/images/logo.png) no-repeat 0 50%;
+}
+header .banner {
+height: 400px;
+margin: 0 auto;
+background: url(https://xiaoke.kaikeba.com/example/canteen/images/banner.png) no-repeat 50% 50%;
+}
+.main-content {
+width: 1200px;
+margin: 0 auto;
+overflow: hidden;
+}
+.main-content nav {
+float: left;
+line-height: 65px;
+margin-top: 70px;
+margin-right: 160px;
+}
+.main-content nav a {
+display: block;
+color: #262626;
+font-size: 20px;
+cursor: pointer;
+text-decoration: none;
+/* text-decoration: none; */
+}
+.main-content nav a span {
+display: inline-block;
+border-bottom: 1px solid #D8D8D8;
+pointer-events: none;
+}
+.main-content nav a.active-link {
+color: #00A0E9;
+}
+.main-content .content-show {
+overflow: hidden;
+margin-top: 30px;
+}
+.content-show .show-title {
+font-size: 23px;
+color: #00A0E9;
+border-left: 3px solid #00A0E9;
+text-indent: 6px;
+font-weight: bold;
+line-height: 22px;
+margin-bottom: 39px;
+}
+.content-show .show-list {
+overflow: hidden;
+}
+.content-show .show-list-item {
+margin-bottom: 80px;
+position: relative;
+width: 870px;
+height: 427px;
+}
+.content-show .item-image {
+position: absolute;
+left: 0;
+top: 0;
+width: 370px;
+height: 370px;
+background: no-repeat 50%;
+}
+.show-list .show-list-item:nth-child(1) .item-image {
+background-image: url(https://xiaoke.kaikeba.com/example/canteen/images/three-chickens.png)
+}
+.show-list .show-list-item:nth-child(2) .item-image {
+background-image: url(https://xiaoke.kaikeba.com/example/canteen/images/gg.png)
+}
+.show-list .show-list-item:nth-child(3) .item-image {
+background-image: url(https://xiaoke.kaikeba.com/example/canteen/images/rr.png)
+}
+.content-show .item-description {
+position: absolute;
+right: 0;
+top: 35px;
+width: 570px;
+/* height: 392px; */
+background-color: #ffffff;
+box-shadow: 0px 0px 0px 0px #eeeeee, 2px 0px 0px 0px #00A0E9, 0px 2px 2px 0px #eeeeee, 0px 0px 0px 0px #eeeeee;
+padding: 27px 33px 30px 30px;
+box-sizing: border-box;
+}
+.content-show .item-description .desc-title {
+font-size: 15px;
+color: #262626;
+margin-bottom: 22px;
+}
+.content-show .item-description .desc-material {
+font-size: 14px;
+color: #6A6A6A;
+margin-bottom: 33px;
+}
+.content-show .item-description .desc-step div:first-child {
+margin-bottom: 17px;
+font-size: 14px;
+}
+.content-show .item-description .desc-step div:last-child {
+line-height: 22px;
+}
+.content-show .item-description .desc-step div {
+font-size: 12px;
+color: #6A6A6A;
+}
+</style>
+</head>
+<body>
+<div class="wrapper-box">
+<header>
+<div class="logo"></div>
+<div class="banner"></div>
+</header>
+<section class="main-content">
+<nav class="content-nav">
+<a href="#t1" >
+<span>三杯鸡</span>
+</a>
+<a href="#t2">
+<span>干锅花菜</span>
+</a>
+<a href="#t3">
+<span>粉蒸肉</span>
+</a>
+</nav>
+<section class="content-show">
+<div class="show-title">
+开课吧食堂
+</div>
+<div class="show-list">
+<div class="show-list-item" id="t1">
+<div class="item-image"></div>
+<div class="item-description">
+<div class="desc-title">三杯鸡</div>
+<div class="desc-material">
+材料：鸡腿，葱姜蒜，干辣椒，植物油，酱油，冰糖
+</div>
+<div class="desc-step">
+<div>步骤：</div>
+<div>
+1. 鸡腿切块，姜切片，红辣椒切成几片，九层塔洗净备用。鸡腿加入1大匙酱油拌匀。<br> 2. 锅内倒入植物油，加热八成熟，倒入鸡块，大火爆炒至表面微微焦黄色，捞起，滤干油份。锅内加入两勺芝麻油，倒入姜蒜、红辣椒炒香。<br> 3. 倒入爆炒过的鸡块，加入2大匙酱油、冰糖。<br> 4. 加入醪糟，将冰糖炒化。 <br>5. 倒入水，煮开后小火，至收干水分亮油。<br> 6. 拌匀后起锅装盘，即可食用。
+</div>
+</div>
+</div>
+</div>
+<div class="show-list-item" id="t2">
+<div class="item-image"></div>
+<div class="item-description">
+<div class="desc-title">干锅花菜</div>
+<div class="desc-material">
+材料：有机花菜，五花肉，耗油，干辣椒，花椒，葱姜蒜，盐，酱油，糖
+</div>
+<div class="desc-step">
+<div>步骤：</div>
+<div>
+1. 菜花用小刀沿着柄削成小朵，用淡盐水浸泡10分钟，冲洗干净后充 分晾干水分 <br>2. 五花肉切片，干辣椒切段，大蒜拍散后切小块，葱切丝 <br>3. 锅内放少许油，以中小火将花椒炒变色吐香味 <br>4. 五花肉入锅小火慢慢煽炒出油，将肉推至一边 <br>5. 干红辣椒与葱、蒜调料放入煸炒出味 <br>6. 开大火，倒入菜花翻炒。 <br>7. 放盐、糖、一勺蚝油、酱油翻炒均匀。如锅内水分太少，可盖上锅盖，调中火闷半分钟。 <br>8. 菜花变色即可出锅。也可以继续小火加热，味道会更浓郁。
+</div>
+</div>
+</div>
+</div>
+<div class="show-list-item" id="t3">
+<div class="item-image"></div>
+<div class="item-description">
+<div class="desc-title">粉蒸肉</div>
+<div class="desc-material">
+材料：五花肉，蒸肉米粉，土豆，豆瓣酱，腐乳汁，耗油，料酒，姜丝，白糖，生抽
+</div>
+<div class="desc-step">
+<div>步骤：</div>
+<div>
+1. 将五花肉（买得是康康肉）洗净切后片（5公分左右）， 准备一个小碗，在碗中加入生抽、料酒、蚝油、白糖、腐乳汁，搅拌均匀。 将调好的调料汁倒入装猪肉片的碗中，再加入姜丝搅拌均匀，让每片肉片都均匀的裹上料汁，盖上保鲜膜放入冰箱腌制1小时。 土豆削皮切大块，浸泡水里，泡出多余淀粉。 <br>2. 将五香粉蒸肉粉倒入一个小碗里，将入腌制好的肉片中，让肉片均匀的裹上肉粉。<br> 3. 土豆水里捞出放少于盐、少许豆瓣酱调味。 <br>4. 将裹好肉粉的五花肉片均匀得铺在土豆上。<br>5. 准备高压锅，锅里放个小碗，装水没过小碗再多一点点（水稍微多点，不然锅干了），等高压锅出气，再蒸30分钟左右即可。 <br>6. 香糯的粉蒸肉配土豆就完美了出锅，再加点葱花点缀一下。
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<footer></footer>
+</div>
+<script>
+document.querySelector('.content-nav').addEventListener('click', function(e){
+let aNodeList = this.querySelectorAll('a')
+let a = e.target
+;([]).slice.call(aNodeList).forEach(function (v){
+v.classList.remove('active-link')
+})
+a.classList.add('active-link')
+}, false)
+</script>
+</body>
+</html>
