@@ -12,6 +12,7 @@ class TestCase():
         self.driver.execute_script(js)
         sleep(2)
         self.driver.switch_to.alert.accept()
+        sleep(2)
 
     #获取页面标题
     def test2(self):

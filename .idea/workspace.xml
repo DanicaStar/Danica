@@ -19,7 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ed48d9b-8fdc-4a17-9587-8c0b539e23dc" name="Default Changelist" comment="" />
+    <list default="true" id="8ed48d9b-8fdc-4a17-9587-8c0b539e23dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myself_project/order_train/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myself_project/order_train/order_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myself_project/order_train/read_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myself_project/order_train/search_tickes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myself_project/order_train/station.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myself_project/order_train/test_booking_tickes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom/test_unittest/01_base_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom/test_unittest/run_case.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumBasic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumBasic/data_driver/mysql/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumBasic/data_driver/mysql/opmysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumBasic/data_driver/yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumBasic/data_driver/yaml.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumBasic/element/test123.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Danica123.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Danica123.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumBasic/element/12_mouse_keyboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumBasic/element/12_mouse_keyboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumBasic/element/13_execute_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumBasic/element/13_execute_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumBasic/element/picture.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,45 +64,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myself_project/order_train" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\differ\Desktop\danica\pom" />
-      <recent name="C:\Users\differ\Desktop\Dalica_li\selenium\data_driver" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\differ\Desktop\danica\myself_project\order_train" />
+      <recent name="C:\Users\differ\Desktop\danica\pom\test_unittest" />
       <recent name="C:\Users\differ\Desktop\danica\python\abnormalData" />
       <recent name="C:\Users\differ\Desktop\danica\python\demo" />
       <recent name="C:\Users\differ\Desktop\danica\spider" />
-      <recent name="C:\Users\differ\Desktop\danica\interface" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\differ\Desktop\danica\seleniumBasic\data_driver" />
+      <recent name="C:\Users\differ\Desktop\danica\myself_project\order_train" />
+      <recent name="C:\Users\differ\Desktop\danica\pom" />
+      <recent name="C:\Users\differ\Desktop\Dalica_li\selenium\data_driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.excel_login2">
-    <configuration name="excel_login2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Danica123" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumBasic/data_driver" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seleniumBasic/data_driver/excel_login2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.read_excel">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Danica123" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,69 +105,118 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for excel_login2.MyCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="order_train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Danica123" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumBasic/data_driver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myself_project/order_train" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;excel_login2.MyCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myself_project/order_train/order_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for excel_login2.MyCase.test_get_data" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Danica123" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumBasic/data_driver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myself_project/order_train" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;excel_login2.MyCase.test_get_data&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myself_project/order_train/read_excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for excel_login.MyCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="search_tickes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Danica123" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumBasic/data_driver" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myself_project/order_train" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;excel_login.MyCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myself_project/order_train/search_tickes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in excel_login2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test_booking_tickes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Danica123" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myself_project/order_train" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myself_project/order_train/test_booking_tickes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Danica123" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/seleniumBasic/data_driver" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/seleniumBasic/data_driver/excel_login2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/seleniumBasic/data_driver/yaml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.excel_login2" />
-        <item itemvalue="Python tests.Unittests for excel_login2.MyCase.test_get_data" />
-        <item itemvalue="Python tests.Unittests in excel_login2.py" />
-        <item itemvalue="Python tests.Unittests for excel_login2.MyCase" />
-        <item itemvalue="Python tests.Unittests for excel_login.MyCase" />
+        <item itemvalue="Python.read_excel" />
+        <item itemvalue="Python.yaml" />
+        <item itemvalue="Python.test_booking_tickes" />
+        <item itemvalue="Python.search_tickes" />
+        <item itemvalue="Python.order_train (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,60 +247,73 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2918" y="208" key="#xdebugger.evaluate" timestamp="1608641804628">
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610019555342">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2918" y="208" key="#xdebugger.evaluate/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608641804628" />
-    <state width="924" height="466" key="DebuggerActiveHint" timestamp="1608639130412">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="924" height="466" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608639130412" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608963093118">
+    <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610019555342" />
+    <state x="998" y="208" width="880" height="596" key="#xdebugger.evaluate" timestamp="1610364895923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="998" y="208" key="#xdebugger.evaluate/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610364895923" />
+    <state x="2918" y="208" width="880" height="596" key="#xdebugger.evaluate/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1609933494083" />
+    <state width="1170" height="466" key="DebuggerActiveHint" timestamp="1609242356146">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1170" height="466" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1609242356146" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1609325749418">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608963093118" />
-    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608949667257" />
-    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608621572354" />
-    <state width="1899" height="362" key="GridCell.Tab.0.bottom" timestamp="1608960470488">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609324466879" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1609325749418" />
+    <state width="1080" height="274" key="GridCell.Tab.0.bottom" timestamp="1610625509524">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="317" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608955176754" />
-    <state width="1899" height="362" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608960470488" />
-    <state width="1899" height="362" key="GridCell.Tab.0.center" timestamp="1608960470488">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610460063248" />
+    <state width="1080" height="274" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610625509524" />
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610540532433" />
+    <state width="1080" height="274" key="GridCell.Tab.0.center" timestamp="1610625509524">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="317" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608955176754" />
-    <state width="1899" height="362" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608960470488" />
-    <state width="1899" height="362" key="GridCell.Tab.0.left" timestamp="1608960470488">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610460063248" />
+    <state width="1080" height="274" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610625509524" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610540532433" />
+    <state width="1080" height="274" key="GridCell.Tab.0.left" timestamp="1610625509524">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="317" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608955176754" />
-    <state width="1899" height="362" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608960470488" />
-    <state width="1899" height="362" key="GridCell.Tab.0.right" timestamp="1608960470488">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610460063248" />
+    <state width="1080" height="274" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610625509524" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610540532433" />
+    <state width="1080" height="274" key="GridCell.Tab.0.right" timestamp="1610625509524">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="317" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608955176754" />
-    <state width="1899" height="362" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608960470488" />
-    <state width="1899" height="362" key="GridCell.Tab.1.bottom" timestamp="1608960470489">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610460063248" />
+    <state width="1080" height="274" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610625509524" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610540532433" />
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1610625509510">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="362" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608954097881" />
-    <state width="1899" height="362" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608960470489" />
-    <state width="1899" height="362" key="GridCell.Tab.1.center" timestamp="1608960470488">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610459997810" />
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610625509510" />
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610540277468" />
+    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1610625509510">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="362" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608954097881" />
-    <state width="1899" height="362" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608960470488" />
-    <state width="1899" height="362" key="GridCell.Tab.1.left" timestamp="1608960470488">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="352" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610459997810" />
+    <state width="1899" height="352" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610625509510" />
+    <state width="1899" height="352" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610540277468" />
+    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1610625509510">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="362" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608954097881" />
-    <state width="1899" height="362" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608960470488" />
-    <state width="1899" height="362" key="GridCell.Tab.1.right" timestamp="1608960470488">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="352" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610459997810" />
+    <state width="1899" height="352" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610625509510" />
+    <state width="1899" height="352" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610540277468" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1610625509510">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="362" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608954097881" />
-    <state width="1899" height="362" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1608960470488" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610459997810" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1610625509510" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1610540277468" />
     <state x="2375" y="158" key="SettingsEditor" timestamp="1606740589808">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -272,7 +336,44 @@
           <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myself_project/order_train/search_tickes.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myself_project/order_train/search_tickes.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myself_project/order_train/search_tickes.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myself_project/order_train/read_excel.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/myself_project/order_train/read_excel.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
