@@ -3,38 +3,26 @@
 # @Author: Danica
 # @File : 123.py
 
-import MySQLdb
-import pytest
-comm=MySQLdb.connect(
-    user= 'jkyun',
-    passwd = 'Jkyun.123',
-    db= '1_se_db',
-    host = '192.168.88.35',
-    port = 3306
-    )
-def get_data():
-    sql_query='select * from user_table'
-    my_data = []
-    try:
-        cursor = comm.cursor()
-        cursor.execute(sql_query)
-        lst =cursor.fetchall()
-        for data in lst:
-            data=(data[0],data[1],data[2])
-            my_data.append(data)
-        return my_data
-    finally:
-        cursor.close()
-        comm.close()
-
-# print(get_data())
-
-@pytest.mark.parametrize('id,name,passwd',get_data())
-def test(id,name,passwd):
-    print(id,name,passwd)
-
-if __name__ == '__main__':
-    pytest.main(['-sv', '123.py'])
 
 
+
+
+from seleniumBasic.data_driver.mysql import config,opmysql
+import requests,logging
+class Params_request():
+    def __post(self,url,header,parama):
+        try:
+            if url !='':
+                response=requests.post(url,header,parama)
+                if response.status_code==200:
+                    result={'code':'0000','message':'成功','data':response.text}
+                else:
+                    result = {'code': '2004', 'message': '状态吗不正确', 'data':[]}
+            if url =='':
+                result = {'code': '2002', 'message': '接口地址为空', 'data': []}
+            else:
+                result = {'code': '2003', 'message': '接口地址不正确', 'data': []}
+        except Exception as error:
+            result = {'code': '9999', 'message': '系统异常', 'data': []}
+        return result
 

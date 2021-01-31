@@ -3,4 +3,5 @@
 # @Author: Danica
 # @File : config.py
 import os
-src_path=os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+src_path=os.path.dirname(os.path.abspath(__file__))
+# print(src_path)

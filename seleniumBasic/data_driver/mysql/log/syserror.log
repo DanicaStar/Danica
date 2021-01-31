@@ -1,0 +1,159 @@
+2021-01-19 19:17:23,056 opmysql.py [line:105] ERROR (1146, "Table '1_se_db.user1_table' doesn't exist")
+Traceback (most recent call last):
+  File "C:/Users/differ/Desktop/danica/seleniumBasic/data_driver/mysql/opmysql.py", line 86, in select_one
+    rows_affect=self.cur.execute(condition)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table '1_se_db.user1_table' doesn't exist")
+2021-01-19 19:17:36,504 opmysql.py [line:129]ERROR (1146, "Table '1_se_db.user1_table' doesn't exist")
+Traceback (most recent call last):
+  File "C:/Users/differ/Desktop/danica/seleniumBasic/data_driver/mysql/opmysql.py", line 109, in select_all
+    rows_affect=self.cur.execute(condition)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table '1_se_db.user1_table' doesn't exist")
+2021-01-19 19:18:41,450 opmysql.py [line:129]ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from user' at line 1")
+Traceback (most recent call last):
+  File "C:/Users/differ/Desktop/danica/seleniumBasic/data_driver/mysql/opmysql.py", line 109, in select_all
+    rows_affect=self.cur.execute(condition)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from user' at line 1")
+2021-01-19 19:18:51,089 opmysql.py [line:129]ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from user' at line 1")
+Traceback (most recent call last):
+  File "C:/Users/differ/Desktop/danica/seleniumBasic/data_driver/mysql/opmysql.py", line 109, in select_all
+    rows_affect=self.cur.execute(condition)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from user' at line 1")
+2021-01-19 19:49:36,425 opmysql.py [line:152] ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inser into user_table(username,pwd)values('张三','zhangsan')' at line 1")
+Traceback (most recent call last):
+  File "C:/Users/differ/Desktop/danica/seleniumBasic/data_driver/mysql/opmysql.py", line 139, in insert_data
+    results=self.cur.executemany(condition,params)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 182, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 182, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inser into user_table(username,pwd)values('张三','zhangsan')' at line 1")
+2021-01-19 19:52:22,575 opmysql.py [line:152] ERROR (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inser into user_table(username,pwd)values('张三','zhangsan')' at line 1")
+Traceback (most recent call last):
+  File "C:/Users/differ/Desktop/danica/seleniumBasic/data_driver/mysql/opmysql.py", line 139, in insert_data
+    results=self.cur.executemany(condition,params)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 182, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 182, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inser into user_table(username,pwd)values('张三','zhangsan')' at line 1")
+2021-01-19 19:52:47,304 opmysql.py [line:152] ERROR (1062, "Duplicate entry '0' for key 'PRIMARY'")
+Traceback (most recent call last):
+  File "C:/Users/differ/Desktop/danica/seleniumBasic/data_driver/mysql/opmysql.py", line 139, in insert_data
+    results=self.cur.executemany(condition,params)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 173, in executemany
+    return self._do_execute_many(
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 211, in _do_execute_many
+    rows += self.execute(sql + postfix)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '0' for key 'PRIMARY'")
