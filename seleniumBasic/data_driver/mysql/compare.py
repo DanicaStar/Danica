@@ -11,10 +11,10 @@ compare_params_complete 是参数完整性的比较方法
 4、recure_params 递归操作方法，辅助去重
 '''
 
-import json,os,logging
-from seleniumBasic.data_driver.mysql import opmysql
-from seleniumBasic.data_driver.mysql import config
-operation_db=opmysql.OperationDbInterface()   #s实例化测试数据库操作类
+import json, logging
+from seleniumBasic.data_driver.mysql import config, opmysql
+
+operation_db= opmysql.OperationDbInterface()   #s实例化测试数据库操作类
 class CompareParam():
     #初始化数据
     def __init__(self,params_interface):
@@ -121,7 +121,7 @@ class CompareParam():
             logger.exception(error)
         finally:
             return result
-                        
+
 
 
     #定义递归方法

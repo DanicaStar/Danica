@@ -157,3 +157,53 @@ Traceback (most recent call last):
   File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
     raise errorclass(errno, errval)
 pymysql.err.IntegrityError: (1062, "Duplicate entry '0' for key 'PRIMARY'")
+2021-02-07 15:55:47,265 opmysql.py [line:152] ERROR (1062, "Duplicate entry '41' for key 'PRIMARY'")
+Traceback (most recent call last):
+  File "C:\Users\differ\Desktop\danica\seleniumBasic\data_driver\mysql\opmysql.py", line 139, in insert_data
+    results=self.cur.executemany(condition,params)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 173, in executemany
+    return self._do_execute_many(
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 211, in _do_execute_many
+    rows += self.execute(sql + postfix)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '41' for key 'PRIMARY'")
+2021-02-07 15:57:34,942 opmysql.py [line:152] ERROR (1062, "Duplicate entry '41' for key 'PRIMARY'")
+Traceback (most recent call last):
+  File "C:\Users\differ\Desktop\danica\seleniumBasic\data_driver\mysql\opmysql.py", line 139, in insert_data
+    results=self.cur.executemany(condition,params)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 173, in executemany
+    return self._do_execute_many(
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 211, in _do_execute_many
+    rows += self.execute(sql + postfix)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\differ\Desktop\danica\venv\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '41' for key 'PRIMARY'")

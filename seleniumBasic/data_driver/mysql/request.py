@@ -7,9 +7,10 @@
 http_request是主方法，直接公外部调用
 2、__http_get,__http_post是实际底层分类调用的方法
 '''
-import requests,os,logging
-from seleniumBasic.data_driver.mysql import opmysql
-from seleniumBasic.data_driver.mysql import config
+import requests, logging
+from seleniumBasic.data_driver.mysql import config, opmysql
+
+
 class RequestInterface():
     #定义处理不同类型的请求参数，包括字典、字符串、空值
     def __new_param(self,param):
@@ -128,7 +129,7 @@ class RequestInterface():
 if __name__ == '__main__':
     test_interface=RequestInterface()   #实例化HTTP请求
     #实例化MySQL处理类
-    test_db=opmysql.OperationDbInterface(host='192.168.88.35',user='jkyun',passwd='Jkyun.123',db='1_se_db',port=3306, link_type=0)
+    test_db= opmysql.OperationDbInterface(host='192.168.88.35', user='jkyun', passwd='Jkyun.123', db='1_se_db', port=3306, link_type=0)
     sen_sql='select exe_mode,url_interface,header_interface,params_interface from case_interface where name_interface="getIpInfo.php" and id=1'
     params_interface=test_db.select_one(sen_sql)
     if params_interface['code']=='0000':

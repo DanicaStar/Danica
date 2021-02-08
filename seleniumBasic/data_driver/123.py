@@ -4,11 +4,9 @@
 # @File : 123.py
 
 
+import requests
 
 
-
-from seleniumBasic.data_driver.mysql import config,opmysql
-import requests,logging
 class Params_request():
     def __post(self,url,header,parama):
         try:

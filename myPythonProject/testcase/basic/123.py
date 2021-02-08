@@ -24,5 +24,3 @@ class Test():
 test=Test(0)
 test.unnormal()
 
-
-create table
