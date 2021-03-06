@@ -4,8 +4,7 @@
 # @File : order_train.py
 from selenium import webdriver
 from time import sleep
-import time
-from datetime import datetime,date,timedelta
+from datetime import date,timedelta
 
 from selenium.webdriver import ActionChains
 

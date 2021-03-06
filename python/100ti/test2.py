@@ -14,16 +14,20 @@
 从键盘输入当月利润I，求应发放奖金总数？
 '''
 
-bonus=0
-i=int(input("请输入当月利润："))
-profit=[100,60,40,20,10,0]
-rat = [0.01,0.015,0.03,0.05,0.075,0.1]
-for x in range(0,6):
-    if i>profit[x]:
-        bonus+=(i-profit[x])*rat[x]
-        print((i-profit[x])*rat[x])
-        i=profit[x]
-print(bonus)
+# bonus=0
+# i=int(input("请输入当月利润："))
+# profit=[100,60,40,20,10,0]
+# rat = [0.01,0.015,0.03,0.05,0.075,0.1]
+# for x in range(0,6):
+#     if i>profit[x]:
+#         bonus+=(i-profit[x])*rat[x]
+#         print((i-profit[x])*rat[x])
+#         i=profit[x]
+# print(bonus)
+
+sum=-230067390.46+20199820.19+3072.48+152568.37-219.81
+shang=-209712149.2/sum
+print(round(shang,2))
 
 
 

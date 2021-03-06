@@ -9,6 +9,8 @@ selenium做二次封装
 '''
 from selenium import webdriver
 import time
+
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 def open_browser(browser='chrome'):
@@ -73,6 +75,9 @@ class Base:
             element.send_keys(text)
         except Exception as msg:
             print(msg)
+    #点击空白处
+    def click_blank(self):
+        ActionChains(self.driver).move_by_offset(0, 0).click().perform()
 
     #判断文本是否在元素的文本中，如果在，返回True,不在，返回False
     def is_text_in_element(self,locator,text,timeout=10):
@@ -98,6 +103,9 @@ class Base:
             return  result
         except:
             return False
+    #执行js,除去空间里面的'readonly'属性
+    def js(self,element):   #通过selenium来执行JavaScript语句
+        self.driver.execute_script("document.getElementById("+   "'"  +element+  "'"  +").removeAttribute('readonly')")
 
 
 if __name__ == '__main__':

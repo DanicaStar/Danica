@@ -5,7 +5,7 @@
 
 import xlrd
 
-wb=xlrd.open_workbook('station.xlsx')
+wb=xlrd.open_workbook('pom/station.xlsx')
 sheet=wb.sheet_by_index(0)
 rows=sheet.nrows
 cols=sheet.ncols

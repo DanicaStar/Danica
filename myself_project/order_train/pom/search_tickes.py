@@ -4,22 +4,22 @@
 # @File : search_tickes.py
 from selenium.webdriver import ActionChains
 from time import sleep
-from myself_project.order_train.functions import functions
+from myself_project.order_train.pom.functions import functions
 
 class Search():
     def search_ticks(self,from_station,arrive_station,n):
         driver=functions.driver(self)
         url='https://trains.ctrip.com/'
         functions.get_url(self,url)
-        functions.id(self,'departCityName').send_keys(from_station)
+        functions.id(self,'departCityName').send_keys(from_station)  #出发站
         sleep(2)
-        functions.id(self,'arriveCityName').send_keys(arrive_station)
+        functions.id(self,'arriveCityName').send_keys(arrive_station)   #到达站
         sleep(2)
 
         functions.js(self,'departDate')
         departDate=functions.id(self,'departDate')
         departDate.clear()
-        arrive_time=functions.arrive_time(self,n)
+        arrive_time=functions.arrive_time(self,n)   #出发时间
         departDate.send_keys(arrive_time)
 
         ActionChains(driver).move_by_offset(0,0).click().perform()

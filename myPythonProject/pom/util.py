@@ -63,6 +63,7 @@ def get_logger():
     logger = logging.getLogger('mylogger')
     logger.setLevel(logging.DEBUG)
     log_path=os.path.dirname(os.path.dirname(__file__))+"\\logs"
+    print(log_path)
     log_name1 = log_path + '\\'  + 'all.log'
     rf_handler = logging.handlers.TimedRotatingFileHandler(log_name1, when='midnight', interval=1, backupCount=7,atTime=datetime.time(0,0,0,0),encoding='utf-8')
     rf_handler.setFormatter(logging.Formatter('%(asctime)s-%(levelname)s-%(message)s'))
@@ -74,3 +75,6 @@ def get_logger():
     logger.addHandler(rf_handler)
     logger.addHandler(f_handle)
     return logger
+
+if __name__ == '__main__':
+    print(get_logger())

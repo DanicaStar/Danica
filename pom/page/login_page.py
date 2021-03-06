@@ -4,7 +4,7 @@ login_page.py
 封装页面的操作层
 继承base类
 '''
-from  POM.common.base import Base
+from  pom.common.base import Base
 login_url=''
 class LoginPage(Base):
     '''
@@ -39,7 +39,7 @@ class LoginPage(Base):
         self.click(self.send_keys())
 
 if __name__ == '__main__':
-    from POM.common.base import open_browser
+    from pom.common.base import open_browser
     driver=open_browser()
     login=LoginPage(driver)
     login.open_url(login_url)

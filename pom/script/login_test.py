@@ -4,10 +4,10 @@ login_test
 调用page文件夹中的login_page.py
 '''
 
-from POM.page.login_page import LoginPage,login_url
-from POM.common.base import open_browser
+from pom.page.login_page import LoginPage,login_url
+from pom.common.base import open_browser
 
-class TestLogin:
+class TestLogin():
     def __init__(self):
         driver=open_browser()  #打开浏览器
         self.login=LoginPage(driver)   #实例化LoginPage
