@@ -3,3 +3,6 @@
 # @Author  : danica
 # @FileName: main.py
 # @Software: PyCharm
+
+if __name__ == '__main__':
+    pass
