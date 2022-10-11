@@ -1,9 +1,7 @@
 '''
 the_list=[1,210,3,12,[99,[2,113,4,],142],124]
-找出列表中的最大值好最小值
+找出列表中的最大值和最小值
 '''
-
-
 
 '''
 解题思路
@@ -19,11 +17,13 @@ max        min
 4 vs 3   0 vs 3
 
 '''
-the_list = [1, 210, 3, 12, [99,-5,[2, 113,0, 4, ], 142], 124,495]
-the_list1=[]
-def func(the_list):   #首先获取到列表中的值，每个都打印出来，获得一个新的列表
+the_list = [1, 210, 3, 12, [99, -5, [2, 113, 0, 4, ], 142], 124, 495]
+the_list1 = []
+
+
+def func(the_list):  # 首先获取到列表中的值，每个都打印出来，获得一个新的列表
     for each_item in the_list:
-        if isinstance(each_item,list):
+        if isinstance(each_item, list):
             func(each_item)
         else:
             # print(each_item)
@@ -32,15 +32,16 @@ def func(the_list):   #首先获取到列表中的值，每个都打印出来，
 
 
 def max_min():
-    para=func(the_list)
+    para = func(the_list)
     max_value = para[0]
     min_value = para[0]
     for j in para[1:]:
-        if j>max_value:
-            max_value=j
-        if j<min_value:
-            min_value=j
-    print(max_value,min_value)
+        if j > max_value:
+            max_value = j
+        if j < min_value:
+            min_value = j
+    print(max_value, min_value)
+
 
 if __name__ == '__main__':
     max_min()

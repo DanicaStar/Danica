@@ -5,7 +5,7 @@
 
 '''
 
-str=[1,2,3,12,[99,[2,113,4,]]]
+str = [1, 2, 3, 12, [99, [2, 113, 4, ]]]
 '''
 #1
 for x in str:
@@ -15,12 +15,15 @@ for x in str:
     else:
         print(x)
 '''
-#2
+
+
+# 2
 def func(the_list):
     for each_item in the_list:
-        if isinstance(each_item,list):
+        if isinstance(each_item, list):
             func(each_item)
         else:
             print(each_item)
-func(str)
 
+
+func(str)
