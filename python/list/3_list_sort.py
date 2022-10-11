@@ -46,11 +46,11 @@ class list_sort():
     '''
 
     def bouble_sort(self, the_list):
-        length = len(the_list1) - 1
+        length = len(the_list) - 1
         for i in range(length):
-            for j in range(0, length - 1):
-                if the_list1[j] > the_list1[j + 1]:
-                    the_list1[j], the_list1[j + 1] = the_list1[j + 1], the_list1[j]
+            for j in range(length):
+                if the_list[j] > the_list[j + 1]:
+                    the_list[j], the_list[j + 1] = the_list[j + 1], the_list[j]
         return the_list1
 
     # 3、选择排序
